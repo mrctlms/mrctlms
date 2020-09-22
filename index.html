@@ -14,7 +14,7 @@
     <link rel="icon" href="/img/logomrc.png" type="image/png">
 </head>
 
-<body>
+<body onbeforeunload="return reloadfn()">
     <app>
         <div style="width: 100%;padding-top: 14vh;height: 100vh">
             <center style="width:100%">
@@ -44,7 +44,12 @@
     <script src="js/bundle.js"></script>
     <script src="js/default-assets/setting.js"></script>
     <script src="js/default-assets/fullscreen.js"></script>
-
+    <script>
+        function reloadfn() {
+            window.location.href = window.location.href;
+            return "Are You Sure You Want To Reload?";
+        }
+    </script>
     <script>
         function searchTable() {
             // Declare variables

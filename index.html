@@ -34,9 +34,22 @@
     </app>
 
     <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
+        <div class="modal fade show" role="dialog" tabindex="-1" style="display: block; background-color:rgba(0, 0, 0,0.7);z-index: 1080;" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-danger">
+                    <div class="modal-body">
+                        <center>
+                            <h5 class="modal-title">Opps!</h5>
+                            <hr />
+                            <h6>An Unhandled Error Has Occurred.</h6>
+                            <hr />
+                            <a href="" class="reload btn btn-rounded btn-success mb-2">Reload</a>
+                            <a class="dismiss btn btn-rounded btn-warning mb-2">Ignore & Continue</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>

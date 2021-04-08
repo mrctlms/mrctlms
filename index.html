@@ -18,14 +18,18 @@
     <app>
         <div style="width: 100%;padding-top: 14vh;height: 100vh">
             <center style="width:100%">
-                <div class="card-header border-none bg-transparent d-flex align-items-center justify-content-between p-0 mb-10">
+                <div
+                    class="card-header border-none bg-transparent d-flex align-items-center justify-content-between p-0 mb-10">
                     <div class="widgets-card-title" style="width: 100%">
                         <h5 class="card-title mb-0">&diams; Mahinda Rajapaksha College &diams;</h5>
                         <h6 class="card-title mb-0">Homagama</h6>
-                        <h3 class="breadcrumb-item active mb-0 font-13" style="width:100%">Teacher Leave Management System</h3>
+                        <h3 class="breadcrumb-item active mb-0 font-13" style="width:100%">Teacher Leave Management
+                            System</h3>
                     </div>
                 </div>
-                <div class="loadImg" style="background-image: url('img/logomrc.png');background-repeat:no-repeat;background-position:center;background-size:contain"></div>
+                <div class="loadImg"
+                    style="background-image: url('img/logomrc.png');background-repeat:no-repeat;background-position:center;background-size:contain">
+                </div>
                 <div class="fixed-bottom">
                     <div class="spinner-border text-danger mb-30" role="status"></div>
                 </div>
@@ -34,7 +38,8 @@
     </app>
 
     <div id="blazor-error-ui">
-        <div class="modal fade show" role="dialog" tabindex="-1" style="display: block; background-color:rgba(0, 0, 0,0.7);z-index: 1080;" aria-modal="true">
+        <div class="modal fade show" role="dialog" tabindex="-1"
+            style="display: block; background-color:rgba(0, 0, 0,0.7);z-index: 1080;" aria-modal="true">
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content bg-danger">
                     <div class="modal-body">
@@ -57,12 +62,12 @@
     <script src="js/bundle.js"></script>
     <script src="js/default-assets/setting.js"></script>
     <script src="js/default-assets/fullscreen.js"></script>
-    <script>
+    <!-- <script>
         window.onbeforeunload = function (event) {
             event.preventDefault();
             event.returnValue = "Are You Sure You Want To Reload?";
         };
-    </script>
+    </script> -->
     <script>
         function searchTable() {
             // Declare variables
@@ -101,15 +106,47 @@
         }
     </script>
 
+    <script>
+        window.OpenNew = (args) => {
+            window.open(args);
+        };
+
+        window.SetCookie = (name, value) => {
+            document.cookie = name + "=" + (value || "") + "; path=/";
+        }
+        window.GetCookie = (name) => {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+        window.EraseCookie = (name) => {
+            document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        }
+        
+
+        window.SetWebStore = (name, value) => {
+            localStorage.setItem(name, value);
+        }
+
+        window.GetWebStore = (name) => {
+            return localStorage.getItem(name);
+        }
+
+        window.EraseWebStore = (name) => {
+            return localStorage.removeItem(name);
+        }
+
+    </script>
+
+    
+
     <!-- Active JS -->
     <script src="js/default-assets/active.js"></script>
-
-    <script src="js/jquery-knob-chart.js"></script>
-    <script>
-        function DrawLveCharts () {
-            $(".knob").knob()
-        };
-    </script>
 
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>

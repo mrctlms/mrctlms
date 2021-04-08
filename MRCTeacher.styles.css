@@ -1,0 +1,46 @@
+/* /Pages/Controls/PieChart.razor.rz.scp.css */
+.circle-chart__circle[b-1fczjeiejk] {
+  animation: circle-chart-fill 2s reverse;
+  /* 1 */
+  transform: rotate(-90deg);
+  /* 2, 3 */
+  transform-origin: center;
+  /* 4 */
+}
+
+.circle-chart__circle--negative[b-1fczjeiejk] {
+  transform: rotate(-90deg) scale(1, -1);
+  /* 1, 2, 3 */
+}
+
+.circle-chart__info[b-1fczjeiejk] {
+  animation: circle-chart-appear 2s forwards;
+  opacity: 0;
+  transform: translateY(0.3em);
+}
+
+@keyframescircle-chart-fill {
+  to[b-1fczjeiejk] {
+    stroke-dasharray: 0 100;
+  }
+}
+
+@keyframescircle-chart-appear {
+  to[b-1fczjeiejk] {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chartgrid[b-1fczjeiejk] {
+  display: grid;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 31em) {
+  .chartgrid[b-1fczjeiejk] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

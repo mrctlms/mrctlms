@@ -23,7 +23,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-uUEihv0ckR\/y+ZrbS\/hxKIyLU+K+qYe6z1nc63kR\/iQ=",
       "System.IO.Pipelines.dll": "sha256-qZYTUS+ga7CydtH54fYPbehFCvx3B49I74G8dxreTog=",
       "MRCTeacher.Shared.dll": "sha256-wBFdajAgKFkdVoQ9M+9QykqLLVPOhRk3\/6eS3l4ooKQ=",
-      "MRCTeacher.dll": "sha256-mZBMrKc2mwXXLMEdGV0ZHXNV2Gc5u7qWcBxQE4THmCM=",
+      "MRCTeacher.dll": "sha256-SUzrDb3D20zMD9AVXESEsMChj0VJ6uzwbB2SU0HqCp8=",
       "System.Collections.Concurrent.dll": "sha256-43QPpMjVFkFGTBjBYnQ\/Q4hbLlR\/rnwFkKHpVhQcAow=",
       "System.Collections.Immutable.dll": "sha256-KZYvgJVjK0FnoPUvnxcHEE+SyLClI5vnnu3XzjQQaFc=",
       "System.Collections.NonGeneric.dll": "sha256-zGPFUpnHbR7BEO8L7OJDemVeZbJ8cveyTJUxLgowXB0=",
@@ -32,7 +32,7 @@
       "System.ComponentModel.Primitives.dll": "sha256-saKY\/Vy+zwsg\/VtsIZ7ZW+HDHhrr6aSzNz8pMzbp+Gw=",
       "System.ComponentModel.TypeConverter.dll": "sha256-nzPYR1OmpERv\/KxLBa3BOZX9RBVUNjH1s7oFuF9O2no=",
       "System.ComponentModel.dll": "sha256-L3xHlETJrgxmGOvLSOc0EUna34jzrmrJvIq4IMFllOY=",
-      "System.Console.dll": "sha256-CrkzCA6VnOcrFkJz4JMyk\/3YPQnUEmf79cQEKtEqqDg=",
+      "System.Console.dll": "sha256-32Q4XeCfapeZMwWyHsoAGd47RfqJP\/wO24WpFxMdW38=",
       "System.Linq.dll": "sha256-sJbsI\/4fqMS\/8d1ON\/GoHI13MwRHzzx2dA4KbYjVYmM=",
       "System.Memory.dll": "sha256-9cOoXF2ZtjKE+fZ68+gPw0CouVQBz4\/WuwhGr\/A5jL8=",
       "System.Net.Http.Json.dll": "sha256-\/JyNs\/5xyFXCrsxNywQf\/ehWEuiNsa7BJRXybHclAbs=",
@@ -45,7 +45,7 @@
       "System.Runtime.InteropServices.RuntimeInformation.dll": "sha256-QRR6w4anKjEr0+o\/vqojnr0dtE+nLvFhSBXKTGl1hME=",
       "System.Text.Encodings.Web.dll": "sha256-q70eKNr+vTQbqqbmKv\/gVNsPU0nkd7iG9JoQ09yy6EM=",
       "System.Text.Json.dll": "sha256-6ZgnYiDEXfvs6oXtkxc0kOahWdnntTQYJqiGyl1GJrs=",
-      "System.Private.CoreLib.dll": "sha256-u3OOq0U+wEMR4HwZzfQ0xNV9W1nR\/d3LPUi\/PnCqTZU="
+      "System.Private.CoreLib.dll": "sha256-BJ+Jrkt\/AkKotU28\/6jp3nDrI38jQWOpfjD65ZCLjRA="
     },
     "lazyAssembly": null,
     "pdb": null,

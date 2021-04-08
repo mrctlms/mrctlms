@@ -1105,7 +1105,7 @@
       "url": "_framework\/MRCTeacher.Shared.dll"
     },
     {
-      "hash": "sha256-mZBMrKc2mwXXLMEdGV0ZHXNV2Gc5u7qWcBxQE4THmCM=",
+      "hash": "sha256-SUzrDb3D20zMD9AVXESEsMChj0VJ6uzwbB2SU0HqCp8=",
       "url": "_framework\/MRCTeacher.dll"
     },
     {
@@ -1141,7 +1141,7 @@
       "url": "_framework\/System.ComponentModel.dll"
     },
     {
-      "hash": "sha256-CrkzCA6VnOcrFkJz4JMyk\/3YPQnUEmf79cQEKtEqqDg=",
+      "hash": "sha256-32Q4XeCfapeZMwWyHsoAGd47RfqJP\/wO24WpFxMdW38=",
       "url": "_framework\/System.Console.dll"
     },
     {
@@ -1193,11 +1193,11 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-u3OOq0U+wEMR4HwZzfQ0xNV9W1nR\/d3LPUi\/PnCqTZU=",
+      "hash": "sha256-BJ+Jrkt\/AkKotU28\/6jp3nDrI38jQWOpfjD65ZCLjRA=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-hHjpFBoOZomcQCbnYkZIFu8QCgVPebtKztGVaUv8H2E=",
+      "hash": "sha256-0hSyb5l6Lly5lFT7APwCsJ6HRp5VQFZS5j5c9+EnIc8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1205,5 +1205,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "755JTbLq"
+  "version": "8G8c6+hA"
 };
